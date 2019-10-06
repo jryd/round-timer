@@ -1,12 +1,15 @@
 import Vue from "vue";
 import App from "./App.vue";
-import router from "./router";
-import store from "./store";
 
+import "./app.scss";
+
+import VueTimers from "vue-timers";
+Vue.use(VueTimers);
+import VueCountdown from "@chenfengyuan/vue-countdown";
+
+Vue.component(VueCountdown.name, VueCountdown);
 Vue.config.productionTip = false;
 
 new Vue({
-  router,
-  store,
   render: h => h(App)
 }).$mount("#app");
