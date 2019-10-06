@@ -1,9 +1,19 @@
-# bridge-timer
+# round-timer
+A simple timer, capable of configuring multiple alerts at custom intervals, with support for multiple rounds of the same length.
+Whilst originally desiged as a bridge timer, its application can extend to any need for a timer for one or more rounds.
 
-## Project setup
+## Installation
 ```
 npm install
 ```
+
+## Usage
+1. Run `npm install` to install the required dependencies
+1. Compile the application with `npm run build`
+1. Open the built web page in your browser
+
+## Development
+This is a Vue-CLI application and so the usual commands for development are available.
 
 ### Compiles and hot-reloads for development
 ```
@@ -24,6 +34,3 @@ npm run test
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

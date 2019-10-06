@@ -1,6 +1,6 @@
 <template>
     <div class="bg-white shadow-lg rounded-lg p-8" style="min-width:32.5rem">
-        <h1 class="text-gray-800 text-3xl leading-normal mb-2">Bridge Timer</h1>
+        <h1 class="text-gray-800 text-3xl leading-normal mb-2">Round Timer</h1>
 
         <hr class="h-px bg-gray-200 w-full mb-6" />
 
