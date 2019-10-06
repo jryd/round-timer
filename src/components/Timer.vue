@@ -44,7 +44,7 @@
                   {{ index + 1 }}
                 </div>
 
-                <div class="mr-4 flex items-center">
+                <div class="mr-4 flex-1 flex items-center">
                     Sounding at
                     <span v-if="!alert.editing" class="font-semibold mx-1 py-2">{{ alert.minutes }}</span>
                     <div v-else class="bg-gray-300 p-2 rounded-sm flex items-center mr-2 w-12 mx-1">
@@ -130,8 +130,8 @@
             total: null
           },
           timePerRound: {
-            minutes: null,
-            seconds: null
+            minutes: 10,
+            seconds: 0
           },
           soundAlerts: [
               {
