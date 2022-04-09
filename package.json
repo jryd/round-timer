@@ -11,7 +11,7 @@
     "@chenfengyuan/vue-countdown": "^1.1.2",
     "@fullhuman/postcss-purgecss": "^1.2.0",
     "core-js": "^2.6.5",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "tailwindcss": "^1.1.1",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
